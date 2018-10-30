@@ -1,0 +1,56 @@
+/*
+* Doucument Grid 
+*
+* Creates A three colum grid for our icons.
+*/
+
+.grid{
+	display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 1rem
+}
+
+.Playbuttom .d{ 
+	fill:black;
+}
+.Playbuttom:hover .d {
+	fill:gray;
+}
+
+.musicnote .note{
+	fill:white;
+}
+.musicnote:hover .note{
+	fill:#ED5ACB;
+}
+
+.doublemusic{
+	fill:black;
+}
+
+.doublemusic:hover .doublemusicnote{
+	fill:#ED5ACB;
+}
+
+.singlemusicnote{
+	fill:black;
+}
+.singlemusicnote:hover ._1musicnote{
+	fill:#ED5ACB;
+}
+
+.mute{
+	fill:black;
+}
+.mute:hover .e{
+	fill:#ED5ACB;
+}
+
+.tape{
+	fill:black;
+}
+
+.tape:hover .d{
+	fill:#ED5ACB;
+
+}
